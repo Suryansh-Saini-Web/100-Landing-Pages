@@ -64,3 +64,51 @@ p{
     font-size: 21px;
     margin-right: 1%;
 }
+#sec3{
+    margin: 2% 9%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.card{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5%;
+    width: 240px;
+    border-radius: 45px;
+    border: 1px solid black;
+}
+.card i{
+    font-size: 30px;
+}
+#line{
+    width: 650px;
+    height: 10px;
+}
+#BigImage{
+    margin: 8% 9%;
+    height:620px;
+    width:83%;
+    background-image: url(image.png);
+    background-size: cover;
+    border-top-left-radius: 200px;
+    border-top-right-radius: 200px;
+    position: relative;
+}
+#circle{
+    background-color: black;
+    width: 230px;
+    height: 230px;
+    border-radius: 50%;
+    position: absolute;
+    right: 25%;
+    top: -10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#circle i{
+    font-size: 180px;
+    color: #d5ff40;
+}
